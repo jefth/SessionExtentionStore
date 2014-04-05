@@ -11,6 +11,7 @@ SessionExtentionStore-
 
 使用方法：
 配置web.config,增加以下配置节点：
+```xml
  <system.web>
     <httpModules>
       <add name="SessionExtentionStore" type="SessionExtentionStore.UpdateTTL"/>
@@ -20,9 +21,11 @@ SessionExtentionStore-
   <appSettings>
      <add key="SessionExtention" value="127.0.0.1"/>
   </appSettings>
+ ```
   
   要是MVC环境，则建立一个Controller父类，派生自Controller类，若是WebForm则建立一个父类派生自System.Web.UI.Page，
   父类加入以下属性定义：
+  ```csharp
         private StoreContainer _store;
         public StoreContainer Store
         {
@@ -36,6 +39,7 @@ SessionExtentionStore-
                 return _store ?? (_store = new StoreContainer(Session.SessionID));
             }
         }
+  ```
         
   其他所有页面都派生自这两个父类，然后均可以使用Store属性进行数据存储，与使用Session的方式一样。
   因为存储内容当中带有类型信息，若带有非mscorlib带有的的数据类型需要在多应用程序间共享，需要在子类中使用
