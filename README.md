@@ -1,4 +1,4 @@
-SessionExtentionStore-
+SessionExtentionStore
 ======================
 
 一个基于Redis的Session存储扩展方案，解决ASP.NET中Session的局限性和跨应用程序使用的局限性
