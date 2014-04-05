@@ -137,9 +137,9 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SessionExtentionStore\SessionExtentionStoreSample.csproj">
+    <ProjectReference Include="..\SessionExtentionStore\SessionExtentionStore.csproj">
       <Project>{4b1fbc98-e563-4ef0-afa3-f83c89c45bf8}</Project>
-      <Name>SessionExtentionStoreSample</Name>
+      <Name>SessionExtentionStore</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

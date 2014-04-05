@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.30110.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SessionExtention", "SessionExtention\SessionExtention.csproj", "{C949D60B-51E8-4899-87F3-C677CDA6ADE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SessionExtentionStoreSample", "SessionExtentionStore\SessionExtentionStoreSample.csproj", "{4B1FBC98-E563-4EF0-AFA3-F83C89C45BF8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SessionExtentionStore", "SessionExtentionStore\SessionExtentionStore.csproj", "{4B1FBC98-E563-4EF0-AFA3-F83C89C45BF8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
